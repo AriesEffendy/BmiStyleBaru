@@ -73,11 +73,7 @@ class HasilBmiScreen extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                builder: ((context) {
-                  return GenderViewscreen();
-                }),
-              ));
+            Navigator.pop(context);
             },
             child: Container(
               decoration: BoxDecoration(
